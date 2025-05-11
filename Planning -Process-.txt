@@ -1,0 +1,139 @@
+***always add the supportive methods***
+
+1.test analysis -> what to test
+2.test design -> how to test
+
+------------------------------------------------
+requirement gathering
+1.producer accept
+2.consumer accept
+
+
+login page 
+*no need password validation policy
+*username : standard_user[used only this] +  password[secret_sauce] 
+*testcases[without using password press login]
+-------------------------------------------------------
+Products page
+
+*when sucessfuly log into the system display "Products" text
+[verify wheather are we in the correct page]
+
+*left side{hamber icon}[menue icon]//check wheather left side menue work or not
+	1.All items
+	2.About
+	3.Logout
+	4.Reset App State
+	5.close icon
+
+*right side{cart icon}
+
+
+*no need sorting part
+
+
+*individual product
+	1.select a one product 	you need to verify wheather this particular card it contains A.summary of this product B.Little description of the product C.price with the correct currency symbol D.Add to cart button verification E.picture verifcation
+
+
+*when click the product it will navigate to the page with product title
+	1.back button working
+	1.validate the product title is here in the page 
+	
+
+1.menue verfication
+2.card verfication
+3.card details vefication
+
+**add to cart vefication
+	1.click the add to cart verfication
+	2.caption change the add to cart to remove[need to verify]
+	3.click the add cart to button again [need to verify]
+
+//click the cart icon
+	1.page verification "your cart"
+	2.verify correct product added to the cart
+	3.currency symbol is not there
+	4.verfiy correct details are here[subject,description,price]
+
+//remove button , checkout button , continue shopping button
+	1.check when i click the remove button items are suceffult remove from the cart
+
+
+----------------------------------------------------------------------------
+checkout page your inforamtion
+	1.checkout the page
+	2.cancel & continue button
+	3.check wheather when press cancel button all the deatils data are correct
+	4.do basic verification firstname , lastname , zip/postal code[without one field press continue]
+
+-----------------------------------------
+checkout overview page validation
+	1.verify qty , description , price,payment info , shipping information
+	2.verify whether these calculaton is correct or not[item total , tax , total]
+		//need the formula
+	3.press finish(happy path)
+	4.press cancle button redirect to the product page
+-------------------------------------------
+finish page
+	1.verify the correct page("thank you for your order")
+
+*supportive methods
+*test coverage
+*test cases derivation techniques [mind maps]
+
+
+in report 
+1.add testing report also
+	
+//////////////////////////////////////////////////////////////////////////
+1.testcases write in the excel only need functional
+
+
+  
+
+
+
+
+
+tesetcase prioritization
+1.risk based priorization
+2.coverage based priorization
+3.requirement based priorization
+--------------------------------------
+steps of doing the assignment
+1.go throught the website
+2.watch the html structure
+3.idetify the business flow
+4.mind map[test cases and test senarios]
+5.priortise
+	[critical,major,minor]
+	[riskbase,requiremntbase,coveragebase]
+6.add dependency related test cases also
+
+**add all the planning in read.md file
+*create the testing report also
+*add screenshots
+*add logger also
+
+//use supportive methods for run iterative works//-> vedio name assignment hava
+*every method need to have exception handeling
+------------------------------------------------
+*when design test scripts use selenium best partices[e.g thred safe when parrel execution] 
+*add good coding best partices
+	1.comment
+	2.check my code used in intellje tools
+-------------------------------------------------
+*use teset overhead -> not shown the executon only terminal show
+--------------------------------------------------------------
+*use testing xml file for grp the testcases {sanity testing , smoke testing}
+
+
+----------------------------------------------------------------
+testing usefull annotations
+1.description -> add the description to the test cases
+2.timeout
+3.priority
+4.dependsOnMethods
+5.enabled
+6.test groups
