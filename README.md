@@ -57,5 +57,4 @@ All testing artifacts are included:
 - Ensure ChromeDriver or the corresponding WebDriver is installed and set in your system path.
 - You can modify the test configuration and base URLs in the config files.
 
----
 
