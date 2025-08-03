@@ -6,7 +6,7 @@ This project presents a QA approach for testing the Swag Labs e-commerce web app
 - **Selenium WebDriver**
 - **Java**
 - **Maven**
-- **TestNG 
+- **TestNG**
 
 ## 📂 Project Contents
 - `project proposal`                     – get approval from the supervisor
