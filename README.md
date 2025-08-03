@@ -1,4 +1,4 @@
-# Selenium End-To-End Testing – SWAG Labs Automation
+# SWAGLabs E-commerce WebApplication TestProject
 This project demonstrates end-to-end automation testing of the Swag Labs(https://www.saucedemo.com/) e-commerce web application using Selenium WebDriver and TestNG. It was completed as part of an internship/job portfolio to showcase practical QA and test automation skills.
 
 
