@@ -1,31 +1,38 @@
 # Selenium End-To-End Testing – SWAG Labs Automation
+This project demonstrates end-to-end automation testing of the Swag Labs(https://www.saucedemo.com/) e-commerce web application using Selenium WebDriver and TestNG. It was completed as part of an internship/job portfolio to showcase practical QA and test automation skills.
 
-This project showcases an end-to-end automation testing suite for the [SWAG Labs](https://www.saucedemo.com/) application using Selenium WebDriver. The project is structured using Maven and includes comprehensive documentation and automation implementation.
 
 ## 🔧 Technologies Used
 - **Selenium WebDriver**
 - **Java**
 - **Maven**
-- **TestNG (optional, if used)**
-- **Git**
+- **TestNG 
 
 ## 📂 Project Contents
-- `final_report.docx` – Detailed summary of the testing process and outcomes
-- `test_plan.docx` – Structured test planning document
-- `test_design.docx` – Documentation outlining the design of test cases
-- `test_cases.xlsx` – Collection of test cases executed
-- `mindmap.png` or `.mmap` – Visual test structure and flow
-- Selenium Implementation Code
+- `project proposal`                     – get approval from the supervisor
+- `test_plan`                            – Structured test planning document
+- `feature wise userStories`             – identify requiremets & design testScanarios
+- `requirement tracerbilty matrix`       – mapping requiremnts with test scanarios and test cases
+- `test cases`                           - Step-by-step instructions to validate application functionality against expected results.
+- `test execution report`               - A summary showing the pass/fail status of executed test cases.
+- `QA summary report`                   - A high-level overview of the testing process, results, and release recommendation.
+- `Automation summary report`           - A report summarizing automated test execution results and key observations.
+- `Automation Test Script`              - Code written to automate testing of application using Selenium                            
 
-## 🚀 How to Run the Project
+## 🚀 How to Run the Auomation Test Script
 
 1. **Clone the Repository**  
    ```bash
    git clone https://github.com/hashandom/Selenium-End-To-End-Testing.git
    cd Selenium-End-To-End-Testing
    ```
+2.**Set Up the java **  
+   Make sure you have Java 21 installed. Run:
+   ```bash
+   java --version
+   ```
 
-2. **Set Up Maven Dependencies**  
+3. **Set Up Maven Dependencies**  
    Make sure you have Maven installed. Run:
    ```bash
    mvn clean install
@@ -46,12 +53,15 @@ This project showcases an end-to-end automation testing suite for the [SWAG Labs
 
 ## 📘 Documentation Included
 All testing artifacts are included:
-- Final report
-- Test plan
-- Test design document
-- Test cases
-- Mindmap for test flow
-- Selenium implementation scripts
+- project proposal
+- test_plan
+- feature wise userStories
+- requirement tracerbilty matrix
+- test cases
+- test execution report
+- QA summary report
+- Automation summary report
+- Automation Test Script
 
 ## 📎 Notes
 - Ensure ChromeDriver or the corresponding WebDriver is installed and set in your system path.
