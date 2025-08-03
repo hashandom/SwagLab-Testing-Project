@@ -1,5 +1,5 @@
 # SWAGLabs E-commerce WebApplication TestProject
-This project demonstrates manual testing automation testing of the Swag Labs(https://www.saucedemo.com/) e-commerce web application using Selenium WebDriver and TestNG. It was completed as part of an internship/job portfolio to showcase practical QA and test automation skills.
+This project presents a QA approach for testing the Swag Labs e-commerce web application (https://www.saucedemo.com/), incorporating both manual testing and automation testing using Selenium WebDriver and TestNG. It highlights best practices in test planning, execution, documentation, and automation, completed as part of an internship/job portfolio to demonstrate end-to-end quality assurance skills.
 
 
 ## 🔧 Technologies Used
