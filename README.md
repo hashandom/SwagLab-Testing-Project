@@ -53,7 +53,7 @@ This project presents a QA approach for testing the Swag Labs e-commerce web app
 
 ## 📘 Documentation Included
 All testing artifacts are included:
-- project proposal
+- [project proposal](/.Test_Plan.pdf)
 - test_plan
 - feature wise userStories
 - requirement tracerbilty matrix
